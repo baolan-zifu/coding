@@ -1,19 +1,21 @@
-#include <stdio.h>
 
 int main()
-{	int sex;
+{ int sex;
+ int age;
 printf( "hello Internet Of Things \n");
-printf( "ÎÒËûß÷µÄ²»»áÃ¤´ò°¡°¡°¡ \n");
-printf("ºÃÎŞÁÄµÄ±à³Ì¿Î°¡...");
+printf( "æˆ‘ä»–å–µçš„ä¸ä¼šç›²æ‰“å•Šå•Šå•Š \n");
+printf("å¥½æ— èŠçš„ç¼–ç¨‹è¯¾å•Š...");
  
-
-	printf("please enter your gender.man 1    feman 2");
-	scanf("%d",&sex);
-	if (sex==1)
-		printf("ÄãÕæ¿É°®\n");
-	else
-		printf("cool~~~~~~\n");
-printf ("let's make it this fucking damn CÜ³");
-
+ printf("please enter your gender.man 1    feman 2");
+ scanf("%d",&sex);
+ if (sex==1)
+  {printf("ä½ çš„å¹´é¾„æ˜¯");
+   scanf("%d",&age);
+   printf("ä½ çœŸæ˜¯å°èè‰ã€n");
+  }
+  printf("ä½ çœŸå¯çˆ±\n");
+ else
+  printf("cool~~~~~~\n");
+printf ("let's make it this fucking damn Cè‰¹");
 }
 
